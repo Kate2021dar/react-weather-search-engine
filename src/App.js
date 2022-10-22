@@ -6,10 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>🌧️ MeteoWeather 🌤️</h1>
+        <h1 className="meteo">🌧️ MeteoWeather 🌤️</h1>
         <Weather defaultCity="Kharkiv" />
         <footer>
-          <a href="https://github.com" target="_blank">
+          <a
+            href="https://github.com/Kate2021dar/react-weather-search-engine.git"
+            target="_blank"
+          >
             {" "}
             Open-source code,
           </a>{" "}

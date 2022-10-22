@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.container {
+  background-color: #8ec9f9;
+  margin: auto;
+  padding: auto;
+}
+
+.meteo {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 750;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+
 
 
 
