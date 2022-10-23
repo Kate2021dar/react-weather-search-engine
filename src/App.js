@@ -4,7 +4,7 @@ import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <h1 className="meteo">🌧️ MeteoWeather 🌤️</h1>
         <Weather defaultCity="Kharkiv" />

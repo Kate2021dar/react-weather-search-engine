@@ -74,7 +74,7 @@ form {
 .id-temperature {
   font-size: 60px;
 }
-.Weather .temperature {
+.weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
   font-size: 64px;
