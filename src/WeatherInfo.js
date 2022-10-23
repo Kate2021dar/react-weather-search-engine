@@ -1,37 +1,41 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import FormattedMonth from "./FormattedMonth";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
-      <h1>{props.data.city}</h1>
-      <ul>
-        <li>
-          <FormattedDate date={props.data.date} />
-        </li>
-        <li className="text-capitalize">{props.data.description}</li>
-      </ul>
-      <div className="row mt-3">
-        <div className="col-6">
-          <div className="d-flex">
-            <div>
-              <WeatherIcon code={props.data.icon} />
-            </div>
+    <div className="container-weather">
+      <div className="date-wind">
+        <h2 className="city">
+          <em>{props.data.city}</em>,
+          <span className="month-day">
+            <FormattedMonth date={props.data.date} />
+          </span>
+        </h2>
+        <h3 className="current-datetime">
+          <span>
+            <FormattedDate date={props.data.date} />
+          </span>
+          , <span className="current-description">{props.data.description}</span>
+        </h3>
+        <h4 className="humidity-wind">
+          Humidity: <span>{props.data.humidity}</span>%, Wind:
+          <span> {props.data.wind}</span> km/h
+        </h4>
+      </div>
 
-            <div>
-              <WeatherTemperature celsius={props.data.temperature} />
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>Humidity:{props.data.humidity}%</li>
-            <li>Wind: {props.data.wind} km/h</li>
-          </ul>
+      <div className="celsius-fahreneit">
+        <WeatherIcon code={props.data.icon} />
+        <div className="temperature">
+          <strong className="id-temperature">
+            <WeatherTemperature celsius={props.data.temperature} />
+          </strong>
         </div>
       </div>
     </div>
   );
+   
 }
+
