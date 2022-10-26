@@ -15,9 +15,17 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Open-source code,
+            Open-source code on GitHub
           </a>{" "}
-          by Kate Rybina
+          and
+          <a
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          > hosted on Netlify
+            {" "}
+          </a>
+            by Kate Rybina
         </footer>
       </div>
     </div>
