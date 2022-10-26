@@ -1,28 +1,28 @@
-.WeatherForecast{
+.weather-forecast{
    text-align:center;
     background-color: #abaeb4;
 }
-.WeatherForecast-temperature-min{
+.weather-forecast-temperature-min{
 	opacity: 0.6;
 	margin-left:5px;
 }
 
-.WeatherForecast-day{
+.weather-forecast-day{
 	font-size: 24px;
 	font-weight:bold;
 }
 
-.WeatherForecast-month{
+.weather-forecast-month{
 	font-size: 18px;
 	font-weight:bold;
 	opacity:0.6;
 }
 
-.WeatherForecast-temperatures{
+.weather-forecast-temperatures{
 	font-weight:bold;
 }
 
-.WeatherForecast-temperature-min{
+.weather-forecast-temperature-min{
 	opacity: 0.6;
 }
 
