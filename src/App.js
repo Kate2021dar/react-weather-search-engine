@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and
           <a
-            href=""
+            href="/"
             target="_blank"
             rel="noreferrer"
           > hosted on Netlify
