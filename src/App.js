@@ -19,13 +19,14 @@ export default function App() {
           </a>{" "}
           and
           <a
-            href="/"
+            href="https://extraordinary-fudge-f410f5.netlify.app"
             target="_blank"
             rel="noreferrer"
-          > hosted on Netlify
+          >
             {" "}
+            hosted on Netlify{" "}
           </a>
-            by Kate Rybina
+          by Kate Rybina
         </footer>
       </div>
     </div>
